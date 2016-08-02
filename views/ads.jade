@@ -1,0 +1,9 @@
+doctype html
+html
+  head
+    script(src='/js/app.js')
+  body
+    p redirect to: #{landingPage} ...
+  |  
+  script(type='text/javascript').
+    redirctToUrl(!{JSON.stringify(landingPage)});

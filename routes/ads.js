@@ -14,8 +14,9 @@ router.get('/', function (req, res, next) {
             console.log('err: ', require('util').inspect(err));
             res.json(err);
         }
-//        console.log('data: ', require('util').inspect(Placements));
-        res.json(resp);
+
+    res.render('ads', { landingPage : resp });
+//        res.json(resp);
     });
 
 
