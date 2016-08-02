@@ -2,6 +2,8 @@
 
 npm install
 
+npm start
+
 http://localhost:3000/ads/
 
-encode image will save in /images/
+encoded image will save in /images/
